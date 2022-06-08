@@ -43,6 +43,10 @@ p {
   font-size: smaller;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
 .pic-credit-text {
   color: #fff;
   position: relative;
@@ -63,14 +67,19 @@ p {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 60px;
   width: 75%;
 }
 
 .website-pic {
   width: 10%;
+  border-radius: 50%;
+  transition: all ease-in-out 0.75s;
 }
 
 .website-pic:hover {
-  background-color: black;
+  display: inline;
+  width: 20%;
+  border-radius: 50%;
+  box-shadow: -9px 9px 5px silver;
 }
