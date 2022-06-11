@@ -19,11 +19,11 @@ h4,
 h5,
 h6 {
   font-family: "Fugaz One", cursive;
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 h1 {
-  font-size: calc(3rem + 3vw);
+  font-size: calc(2.75rem + 3vw);
   margin-bottom: 3rem;
 }
 
@@ -56,7 +56,7 @@ p {
   color: #fff;
   position: relative;
   text-align: center;
-  top: -1.75rem;
+  top: -3.5rem;
   font-size: 8px;
 }
 
@@ -74,7 +74,8 @@ p {
   border-width: 10px;
   display: block;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   max-width: 90%;
   max-height: 25rem;
   height: auto;
