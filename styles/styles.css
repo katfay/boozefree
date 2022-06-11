@@ -2,14 +2,18 @@
   border: 1px solid red;
 }
 
+body {
+  background: white;
+}
+
 a {
-  color: inherit;
+  color: #7f7f7f;
   text-decoration: none;
   transition: all ease-in-out 0.5s;
 }
 
 a:hover {
-  color: silver;
+  color: #c60f7b;
 }
 
 h1,
@@ -35,6 +39,14 @@ p {
   font-family: "Work Sans", sans-serif;
 }
 
+.magenta-dye {
+  color: #c60f7b;
+}
+
+.dark-gray {
+  color: #7f7f7f;
+}
+
 .fugaz-font {
   font-family: "Fugaz One", cursive;
 }
@@ -57,7 +69,15 @@ p {
   position: relative;
   text-align: center;
   top: -3.5rem;
-  font-size: 8px;
+  font-size: 0.5rem;
+}
+
+.pic-credit-text a {
+  color: #fff;
+}
+
+.pic-credit-text a:hover {
+  color: #c60f7b;
 }
 
 .strikethrough {
