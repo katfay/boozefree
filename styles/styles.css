@@ -67,6 +67,8 @@ p {
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 60px;
+  max-width: 90%;
+  height: auto;
 }
 
 .website-pic {
