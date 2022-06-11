@@ -24,7 +24,11 @@ h6 {
 
 h1 {
   font-size: calc(3rem + 3vw);
-  margin-bottom: 50px;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: calc(1.2rem + 1.2vw);
 }
 
 p {
@@ -43,8 +47,9 @@ p {
   font-size: smaller;
 }
 
-.strikethrough {
-  text-decoration: line-through;
+.summary-text p {
+  font-size: 1.3rem;
+  margin-bottom: 3.5rem;
 }
 
 .pic-credit-text {
@@ -53,6 +58,10 @@ p {
   text-align: center;
   top: -60px;
   font-size: 8px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
 }
 
 .beer-pic {
@@ -65,9 +74,9 @@ p {
   border-width: 10px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 30px;
   margin-top: 60px;
   max-width: 90%;
+  max-height: 25rem;
   height: auto;
 }
 
