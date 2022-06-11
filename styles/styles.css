@@ -61,8 +61,8 @@ p {
 
 .venue-pic {
   border-color: silver;
-  border-radius: 15px 15px 15px 15px;
-  border-style: solid;
+  border-radius: 50% 20% / 10% 40%;
+  border-style: none;
   border-width: 10px;
   display: block;
   margin: 0 auto;
