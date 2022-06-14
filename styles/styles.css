@@ -12,7 +12,8 @@ a {
   transition: all ease-in-out 0.5s;
 }
 
-a:hover {
+a:hover,
+.menu-text a:hover {
   color: #c60f7b;
 }
 
@@ -133,9 +134,11 @@ li::marker {
   padding: 1rem 0 1rem 0;
 }
 
-.menu-text {
+.menu-text,
+.menu-text a {
   text-align: right;
   font-family: "Fugaz One", cursive;
+  color: #000;
 }
 
 .ratings {
