@@ -121,9 +121,7 @@ p {
 }
 
 .menu {
-  border-style: solid;
-  border-width: 0.5rem;
-  border-color: #ffe45e;
+  border: solid 0.75rem #ffe45e;
   background-color: #ffe45e;
   border-radius: 50px;
   margin-top: 1rem;
@@ -141,11 +139,9 @@ p {
   display: block;
   margin: 0 auto;
   padding: 1rem 1rem 1rem 3rem;
-  border-style: solid;
-  border-width: 0.5rem;
-  border-color: #ffe45e;
-  background-color: #ffe45e;
+  border: solid 0.75rem #ffe45e;
   border-radius: 50px;
+  background-color: #ffe45e;
 }
 
 .ratings p {
@@ -153,5 +149,3 @@ p {
   font-size: smaller;
   text-align: left;
 }
-
-.ratings h6;
