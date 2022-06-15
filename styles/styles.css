@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #7f7f7f;
+  color: #6a6a6a;
   text-decoration: none;
   transition: all ease-in-out 0.5s;
 }
@@ -37,7 +37,7 @@ h2 {
   font-size: calc(1.2rem + 1.2vw);
 }
 
-h6 {
+h5 {
   font-family: "Fugaz One", cursive;
   margin-top: 0;
   margin-bottom: 0;
@@ -46,6 +46,10 @@ h6 {
 
 p {
   font-family: "Work Sans", sans-serif;
+}
+
+li {
+  font-size: 1.3rem;
 }
 
 li::marker {
@@ -57,7 +61,7 @@ li::marker {
 }
 
 .dark-gray {
-  color: #7f7f7f;
+  color: #6a6a6a;
 }
 
 .lemon-butter {
@@ -144,25 +148,25 @@ li::marker {
 }
 
 .ratings {
-  max-width: 80%;
+  max-width: 95%;
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
-  padding: 1rem 1rem 0.5rem 3rem;
-  border: solid 0.75rem #ffe45e;
-  border-radius: 100px;
-  background-color: #ffe45e;
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  background-color: #c60f7b;
+  color: #fff;
+  border-radius: 1rem;
 }
 
 .ratings p {
   margin-bottom: 0;
-  font-size: smaller;
+  font-size: 1rem;
   text-align: left;
 }
 
 .review-para p {
   font-size: 1.3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .attributions,
